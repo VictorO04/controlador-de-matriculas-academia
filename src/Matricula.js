@@ -20,7 +20,7 @@ export default class Matricula {
             throw new Error("Idade fora da faixa permitida (12 a 100 anos)");
         }
 
-        const alunoNovo = { nomeFormatado, idade };
+        const alunoNovo = { nome: nomeFormatado, idade };
 
         alunosMatriculados.push(alunoNovo);
 
